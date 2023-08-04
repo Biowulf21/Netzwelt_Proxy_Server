@@ -1,3 +1,4 @@
+
 import express from 'express';
 import fetch from 'node-fetch';
 import cors from 'cors';
@@ -60,4 +61,9 @@ app.post('/api/login', async (req, res) => {
   }
 });
 
+
+
+app.listen(3000, () => {
+  console.log("server is on");
+});
 
